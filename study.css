@@ -36,10 +36,6 @@ th {
     text-align: left;
 }
 
-tr:hover {
-    background-color: lightgray;
-}
-
 caption {
     caption-side: bottom;
     text-align: right;
@@ -49,7 +45,7 @@ caption {
 
 .total {
     background-color: #e5fbdc);
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 table.left {
