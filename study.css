@@ -10,7 +10,7 @@ body {
     width: 550px;
     margin: 0 auto;
     padding: 7px;
-    background-color: rgb(244, 246, 246)
+    background-color: rgba(246, 246, 246, 0.9)
 }
 
 p {
