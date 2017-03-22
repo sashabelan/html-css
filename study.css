@@ -71,9 +71,3 @@ div.lorem {
     border-radius: 15px;
     margin-top: 5px;
 }
-
-IMG.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
