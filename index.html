@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class=wrapper>
+    <div>
         <h1>Things I've Learned</h1>
         <h2>Internet Basics</h2>
         <ol>
@@ -88,14 +88,64 @@
         <div class=lorem>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quaerat, quod ad provident, consectetur laboriosam vero laudantium officia. Obcaecati eaque libero quos ipsum voluptates nulla, voluptate ipsam id harum. Pariatur.</p>
         </div>
-        <h1>Form</h1>
-        <form action="index.html" method="get">
-            <input name="username" type="text" placeholder="username">
-            <input name="password" type="password" placeholder="password">
-            <button>Submit</button>
-        </form>
 
-    </div>
-</body>
+        <h1>Register</h1>
+        <form action="index.html" method="post">
+
+            <label for="first">First Name:</label>
+            <input name="first" type="text" id="first" placeholder="John" required>
+
+            <label for="last">Last Name:</label>
+            <input name="last" type="text" id="last" placeholder="Smith" required>
+
+            <div>
+
+                <label for="male">Male</label>
+                <input name="gender" id="male" type="radio" value="male" required>
+                <label for="female">Female</label>
+                <input name="gender" id="female" type="radio" value="female" required>
+                <label for="other">Other</label>
+                <input name="gender" id="other" type="radio" value="other" required>
+            </div>
+
+            <div>
+                <label>E-mail:
+<input name="email" type="email" required title="email should be in this format: tim@apple.com" placeholder="your e-mail" required>
+</label>
+
+                <label>Password:
+<input name="password" type="password" pattern=".{5,10}" required title="Password must be beetween 5 and 10 characters" placeholder="password" required>
+</label>
+            </div>
+            <div>
+                <label>Birthday:
+<select name="month">
+<option>Month</option>
+<option>Jan</option>
+<option>Feb</option>
+<option>Mar</option>
+</select>
+<select name="day">
+<option>Day</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+</select>
+<select name="year">
+<option>Year</option>
+<option>1999</option>
+<option>2000</option>
+<option>2001</option>
+</select>
+</label>
+            </div>
+            <div>
+                <label for="agreed">I agree to the terms and conditions: </label>
+                <input id="agreed" name="agreed" type="checkbox" required>
+            </div>
+            <input type="submit">
+
+
+
 
 </html>
