@@ -1,14 +1,15 @@
 body {
     width: 100%;
-    color: #494d50;
+    color: #f1f1f1;
     font-family: Helvetica;
     font-size: 12px;
     line-height: 1.5;
+    background-image: url(http://celebmafia.com/wp-content/uploads/2014/06/margot-robbie-photoshoot-for-elle-magazine-australia-march-2014-issue_1.jpg);
+    background-repeat: no-repeat;
 }
 
 p {
     padding: 2px;
-    background-color: #dff0d8;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h2 {
 td {
     border: 1px solid lightgray;
     padding: 5px;
-    color: #57595b;
+    color: #e8ebed;
 }
 
 th {
@@ -65,8 +66,8 @@ table.left {
 div.lorem {
     margin-bottom: 5px;
     padding: 15px 20px 15px 10px;
-    background-color: #dff0d8;
-    width: 420px;
+    background-color: rgba(0,0,0,0.2);
+    width: 620px;
     text-align: justify;
     border-radius: 15px;
     margin-top: 5px;
