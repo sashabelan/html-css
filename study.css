@@ -24,7 +24,7 @@ h2 {
 }
 /* tables */
 td {
-    border: 1px solid lightgray;
+    border: 1px solid rgb(106, 106, 106);
     padding: 5px;
     color: #e8ebed;
 }
@@ -52,7 +52,7 @@ caption {
 }
 
 .total {
-    background-color: #e5fbdc;
+    background-color: rgba(#e5fbdc, 0.56);
     border-bottom: 2px solid black;
 }
 
