@@ -12,6 +12,9 @@ body {
 a:visited {
     color: rgb(164, 164, 164);
 }
+a:hover {
+    color: #fb376b;
+}
 
 p {
     padding: 2px;
@@ -65,16 +68,16 @@ table.left {
     border-collapse: collapse;
     padding: 5px;
     font-size: 13px;
-    width: 450px;
+    width: 100%;
 }
 /* Div */
 div.lorem {
     margin-bottom: 5px;
-    padding: 15px 20px 15px 10px;
+    padding: 15px 20px 15px 15px;
     background-color: rgba(0,0,0,0.2);
     width: 620px;
     text-align: justify;
     border-radius: 15px;
     margin-top: 5px;
-    border: 1px rgba(109, 111, 109, 0.69) solid;
+    border: 1px rgba(109, 111, 109, 0.28) solid;
 }
