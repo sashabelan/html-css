@@ -1,7 +1,7 @@
 body {
     width: 100%;
     color: #f1f1f1;
-    font-family: Helvetica;
+    font-family: Raleway;
     font-size: 13px;
     line-height: 1.5;
     background-image: url(margot-robbie.jpg);
@@ -28,14 +28,14 @@ p {
 h1 {
     margin: 0;
     color: #fb376b;
-    font-family: Impact;
+    font-family: Dosis;
     text-transform: uppercase;
 }
 
 h2 {
     margin: 0;
     color: rgba(43, 153, 251, 0.8);
-    font-family: Impact;
+    font-family: Raleway;
     text-transform: uppercase;
 }
 /* tables */
