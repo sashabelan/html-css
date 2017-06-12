@@ -7,6 +7,7 @@ body {
     background-image: url(margot-robbie.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 
 }
 a {
@@ -22,7 +23,6 @@ a:hover {
 
 p {
     padding: 2px;
-    word-spacing: 0.1rem;
 }
 
 h1 {
@@ -84,11 +84,9 @@ table.left {
 div.lorem {
     margin-bottom: 5px;
     padding: 15px 20px 15px 15px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.42);
     width: 50%;
     text-align: justify;
     border-radius: 15px;
     margin-top: 5px;
-    border: 1px rgba(109, 111, 109, 0.28) solid;
-
 }
