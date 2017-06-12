@@ -2,13 +2,17 @@ body {
     width: 100%;
     color: #f1f1f1;
     font-family: Helvetica;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.5;
     background-image: url(margot-robbie.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
+a {
+text-decoration: none;
+}
+
 a:visited {
     color: rgb(164, 164, 164);
 }
@@ -18,17 +22,21 @@ a:hover {
 
 p {
     padding: 2px;
+    word-spacing: 0.1rem;
 }
 
 h1 {
     margin: 0;
     color: #fb376b;
-    font-size: 18px;
+    font-family: Impact;
+    text-transform: uppercase;
 }
 
 h2 {
     margin: 0;
     color: rgba(43, 153, 251, 0.8);
+    font-family: Impact;
+    text-transform: uppercase;
 }
 /* tables */
 td {
@@ -56,18 +64,20 @@ caption {
     caption-side: bottom;
     text-align: right;
     font-size: 10px;
-    padding: 4px;
+    padding: 2px;
 }
 
 .total {
     background-color: rgba(#e5fbdc, 0.56);
     border-bottom: 2px solid black;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(46, 171, 210, 0.42);
 }
 
 table.left {
     border-collapse: collapse;
     padding: 5px;
-    font-size: 13px;
     width: 100%;
 }
 /* Div */
@@ -75,9 +85,10 @@ div.lorem {
     margin-bottom: 5px;
     padding: 15px 20px 15px 15px;
     background-color: rgba(0,0,0,0.2);
-    width: 620px;
+    width: 50%;
     text-align: justify;
     border-radius: 15px;
     margin-top: 5px;
     border: 1px rgba(109, 111, 109, 0.28) solid;
+
 }
