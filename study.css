@@ -2,7 +2,7 @@ body {
     width: 100%;
     color: #f1f1f1;
     font-family: Raleway;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.5;
     background-image: url(margot-robbie.jpg);
     background-repeat: no-repeat;
@@ -83,8 +83,8 @@ table.left {
 div.lorem {
     margin-bottom: 5px;
     padding: 15px 20px 15px 15px;
-    background-color: rgba(0, 0, 0, 0.42);
-    width: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
     text-align: justify;
     border-radius: 15px;
     margin: 10px auto;
