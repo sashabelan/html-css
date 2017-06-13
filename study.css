@@ -8,7 +8,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 a {
 text-decoration: none;
@@ -85,8 +84,9 @@ div.lorem {
     margin-bottom: 5px;
     padding: 15px 20px 15px 15px;
     background-color: rgba(0, 0, 0, 0.42);
-    width: 50%;
+    width: 70%;
     text-align: justify;
     border-radius: 15px;
-    margin-top: 5px;
+    margin: 10px auto;
+    overflow-x: scroll;
 }
