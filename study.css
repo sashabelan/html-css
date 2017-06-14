@@ -94,7 +94,8 @@ p {
     line-height: 1.5;
 }
 p.ipsum {
-    width: 70%
+    width: 70%;
+    font-size: 16px;
 }
 img.gallery {
     width: 30%;
