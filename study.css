@@ -93,6 +93,9 @@ div.lorem {
 p {
     line-height: 1.5;
 }
+p.ipsum {
+    width: 70%
+}
 img.gallery {
     width: 30%;
     float:left;
