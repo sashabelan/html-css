@@ -93,8 +93,11 @@ div.lorem {
 p {
     line-height: 1.5;
 }
-img {
+img.gallery {
     width: 30%;
     float:left;
     margin: 1.66%;
+}
+img.table {
+    margin: 5px;
 }
