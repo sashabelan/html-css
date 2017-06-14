@@ -2,8 +2,7 @@ body {
     width: 100%;
     color: #f1f1f1;
     font-family: Raleway;
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 12px;
     background-image: url(margot-robbie.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -34,7 +33,7 @@ h1 {
 h2 {
     margin: 0;
     color: rgba(43, 153, 251, 0.8);
-    font-family: Raleway;
+    font-family: Dosis;
     text-transform: uppercase;
 }
 /* tables */
@@ -87,6 +86,9 @@ div.lorem {
     width: 80%;
     text-align: justify;
     border-radius: 15px;
-    margin: 10px auto;
+    margin: 10px 10px 10px 10px;
     overflow-x: scroll;
+}
+p {
+    line-height: 1.5;
 }
