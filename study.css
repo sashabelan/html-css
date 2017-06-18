@@ -103,5 +103,8 @@ img.gallery {
     margin: 1.66%;
 }
 img.table {
-    margin: 5px;
+    margin: 4px;
+}
+div {
+    padding: 5px;
 }
