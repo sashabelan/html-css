@@ -97,7 +97,7 @@ p.ipsum {
     width: 70%;
     font-size: 16px;
 }
-img.gallery {
+.gallery {
     width: 30%;
     float:left;
     margin: 1.66%;
