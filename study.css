@@ -4,7 +4,7 @@ body {
     font-family: Raleway;
     font-size: 14px;
     background-image: url(margot-robbie.jpg);
-    background-repeat: space;
+    background-repeat:no-repeat;
     background-attachment:fixed;
     background-size: cover;
 }
