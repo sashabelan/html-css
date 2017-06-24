@@ -3,15 +3,15 @@ body {
     color: #f1f1f1;
     font-family: Raleway;
     font-size: 14px;
-    background-image: url(margot-robbie.jpg);
+    background-image: url(https://pp.userapi.com/c636026/v636026138/2125b/hu2tkNNYZRE.jpg);
     background-repeat:no-repeat;
     background-attachment:fixed;
-    background-size: cover;
+    background-size:cover;
 }
 a {
 text-decoration: none;
+color: rgba(30, 102, 167, 0.8);
 }
-
 a:visited {
     color: rgb(164, 164, 164);
 }
@@ -29,7 +29,6 @@ h1 {
     font-family: Dosis;
     text-transform: uppercase;
 }
-
 h2 {
     margin: 0;
     color: rgba(43, 153, 251, 0.8);
@@ -77,7 +76,7 @@ caption {
 table.left {
     border-collapse: collapse;
     padding: 5px;
-    width: 300px;
+    width: 290px;
 }
 /* Div */
 div.lorem {
